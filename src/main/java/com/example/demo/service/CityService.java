@@ -4,6 +4,8 @@ import com.example.demo.domain.City;
 
 public interface CityService {
 
-	public City findById(Long id);
+	City findById(Long id);
+
+	void createCity(Long provinceId, String cityName, String description);
 
 }

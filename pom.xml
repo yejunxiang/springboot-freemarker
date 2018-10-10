@@ -49,6 +49,12 @@
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>1.2.0</version>
         </dependency>
+        
+        <!-- 不整合Mybatis情况下的JdbcTemplate的数据库连接支持 -->
+        <!-- <dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency> -->
 		
 		<!-- MySQL 连接驱动依赖 -->
         <dependency>
